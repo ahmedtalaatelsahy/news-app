@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../../../../api/api_manager.dart';
-import '../../../../model/news_respons/Article.dart';
-import '../../../../model/sources_response/Source.dart';
-import '../article_item.dart';
+import '../../../api/api_manager.dart';
+import '../../../model/news_respons/Article.dart';
+import '../../../model/sources_response/Source.dart';
+import 'article_item.dart';
+
 
 class NewsListWidget extends StatefulWidget {
   final Source source;
