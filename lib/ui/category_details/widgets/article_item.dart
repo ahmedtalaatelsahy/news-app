@@ -22,7 +22,7 @@ class ArticleItem extends StatelessWidget {
         placeholder: (context, url) => Center(child: CircularProgressIndicator(),),
         errorWidget: (context, url, error) => Center(child: Icon(Icons.error,size: 30,),),
         imageBuilder: (context, imageProvider) => Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(5),
-            image: DecorationImage(image:imageProvider,fit: BoxFit.cover )),
+            image: DecorationImage(image:imageProvider,fit: BoxFit.fill )),
         ),
       ),
         SizedBox(height: 10,),
